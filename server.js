@@ -53,6 +53,7 @@ app.post("/api/new", function(req,res){
     else{
         data.waitlist.push(tableData)
     }
+    res.json(tableData)
 })
 
 
