@@ -14,3 +14,22 @@ header {
 header .fa-fire {
   color: red;
 }
+
+.card-link:hover {
+  transition: .5s ease;
+  opacity: 0.5;
+}
+
+.card {
+  padding: 8px;
+  background-color: #0b0d0e;
+}
+
+.card-body {
+  margin: 0 auto;
+}
+
+.card-body .btn {
+  display: inline-block;
+  font-weight: 300;
+}
