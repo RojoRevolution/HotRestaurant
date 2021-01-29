@@ -1,6 +1,8 @@
+const express = require("express");
+const path = require("path");
+
 const app = express();
-const app = express();
-const path = path();
+
 
 const PORT = process.env.PORT|| 8080;
 
@@ -8,3 +10,18 @@ const PORT = process.env.PORT|| 8080;
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+const data = [
+    {
+        reservations: [],
+        waitlist: []
+    }
+]
+
+app.get("/", function(req,res){
+    res.sendFile(path.join(_dirname,"view.html"));
+})
+
+app.get("/add",function(req,res){
+    res.sendFile(path.join(_dirname,"add.html"))
+})
