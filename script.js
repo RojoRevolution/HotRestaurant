@@ -1,3 +1,4 @@
+// ===========================
 // On Page Button Variables
 // Need ID names
 const viewBtn = document.getElementById('#');
@@ -6,11 +7,24 @@ const homeBtn = document.getElementById('#');
 const submitBtn = document.getElementById('#');
 
 
+// ===========================
+
+// Will likely need to  use fetch: this is placeholder code for now
+// fetch(`NEED ROUTE`, {
+//     method: 'GET',
+//     headers: {
+//         'Content-Type': 'application/json',
+//     },
+// })
+//     .then((response) => response.json());
+//     .then((data) => {
+//         console.log(data);
+//         // Deconstruct Item
+//         // Add If Else Logic if needed?
+//     })
 
 
-
-
-
+// ===========================
 // Event Listeners
 viewBtn.addEventListener('click', () => {
     // remove console log once click is confirmed
