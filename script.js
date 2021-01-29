@@ -17,32 +17,6 @@ let newReservation = {
 };
 
 
-// ===========================
-// Event Listeners
-viewBtn.addEventListener('click', () => {
-    // remove console log once click is confirmed
-    console.log('click')
-
-    // Will likely need to  use fetch: this is placeholder code for now
-    // fetch(`RESERVATION ROUTE`, {
-    //     method: 'GET',
-    //     headers: {
-    //         'Content-Type': 'application/json',
-    //     },
-    // })
-    //     .then((response) => response.json());
-    //     .then((data) => {
-    //         console.log(data);
-    //         // Deconstruct Item
-    //         // Add If Else Logic if needed?
-    //     })
-})
-
-
-homeBtn.addEventListener('click', () => {
-    // remove console log once click is confirmed
-    console.log('click')
-})
 
 // Listener for submit button
 // CONTAINS PLACEHOLDER CONTENT
