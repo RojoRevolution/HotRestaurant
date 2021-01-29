@@ -25,3 +25,9 @@ app.get("/", function(req,res){
 app.get("/add",function(req,res){
     res.sendFile(path.join(_dirname,"add.html"))
 })
+app.get("/api/waitlist",function(req,res){
+    res.json(data.waitlist)
+})
+app.get("/api/tables",function(req,res){
+    res.json(data.reservations)
+})
