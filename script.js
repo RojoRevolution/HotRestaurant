@@ -5,6 +5,11 @@ const viewBtn = document.getElementById('#');
 const reserveBtn = document.getElementById('#');
 const homeBtn = document.getElementById('#');
 const submitBtn = document.getElementById('#');
+// Reservation Variables
+const reserveName = document.getElementById('reserve-name');
+const reservePhone = document.getElementById('reserve-phone');
+const reserveEmail = document.getElementById('reserve-email');
+const reserveId = document.getElementById('reserve-unique-id');
 
 
 // ===========================
@@ -46,4 +51,6 @@ submitBtn.addEventListener('click', (event) => {
     event.preventDefault();
     // remove console log once click is confirmed
     console.log('click')
+
+
 })
