@@ -31,3 +31,7 @@ app.get("/api/waitlist",function(req,res){
 app.get("/api/tables",function(req,res){
     res.json(data.reservations)
 })
+
+app.listen(PORT, function(){
+    console.log("App listening on PORT " + PORT)
+})
