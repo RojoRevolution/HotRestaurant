@@ -25,7 +25,7 @@ submitBtn.addEventListener('click', (event) => {
     // remove console log once click is confirmed
     console.log('click')
     // new fetch for POST
-    fetch('NEED PATH', {
+    fetch('/add', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
