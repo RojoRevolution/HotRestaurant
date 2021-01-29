@@ -17,7 +17,6 @@ let newReservation = {
 };
 
 
-
 // Listener for submit button
 // CONTAINS PLACEHOLDER CONTENT
 submitBtn.addEventListener('click', (event) => {
