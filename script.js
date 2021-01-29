@@ -4,29 +4,13 @@
 const viewBtn = document.getElementById('#');
 const reserveBtn = document.getElementById('#');
 const homeBtn = document.getElementById('#');
-const submitBtn = document.getElementById('#');
 // Reservation Variables
 const reserveName = document.getElementById('reserve-name');
 const reservePhone = document.getElementById('reserve-phone');
 const reserveEmail = document.getElementById('reserve-email');
 const reserveId = document.getElementById('reserve-unique-id');
+const submitBtn = document.getElementById('#');
 
-
-// ===========================
-
-// Will likely need to  use fetch: this is placeholder code for now
-// fetch(`NEED ROUTE`, {
-//     method: 'GET',
-//     headers: {
-//         'Content-Type': 'application/json',
-//     },
-// })
-//     .then((response) => response.json());
-//     .then((data) => {
-//         console.log(data);
-//         // Deconstruct Item
-//         // Add If Else Logic if needed?
-//     })
 
 
 // ===========================
@@ -34,6 +18,20 @@ const reserveId = document.getElementById('reserve-unique-id');
 viewBtn.addEventListener('click', () => {
     // remove console log once click is confirmed
     console.log('click')
+
+    // Will likely need to  use fetch: this is placeholder code for now
+    // fetch(`RESERVATION ROUTE`, {
+    //     method: 'GET',
+    //     headers: {
+    //         'Content-Type': 'application/json',
+    //     },
+    // })
+    //     .then((response) => response.json());
+    //     .then((data) => {
+    //         console.log(data);
+    //         // Deconstruct Item
+    //         // Add If Else Logic if needed?
+    //     })
 })
 
 reserveBtn.addEventListener('click', () => {
