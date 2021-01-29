@@ -56,6 +56,19 @@ submitBtn.addEventListener('click', (event) => {
     event.preventDefault();
     // remove console log once click is confirmed
     console.log('click')
-
-
+    // new fetch for POST
+    fetch('NEED PATH', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newReservation),
+    })
+        .then((response) => response.json());
+        .then((data) => {
+            alert(`Adding a reservation for ${data.name}`)
+        })
+        .catch((error) => {
+            console.error('Error', error);
+        });
 })
