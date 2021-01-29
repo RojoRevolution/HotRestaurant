@@ -1,9 +1,6 @@
 // ===========================
 // On Page Button Variables
-// Need ID names
-const viewBtn = document.getElementById('#');
-const reserveBtn = document.getElementById('#');
-const homeBtn = document.getElementById('#');
+
 // Reservation Variables
 const reserveName = document.getElementById('reserve-name');
 const reservePhone = document.getElementById('reserve-phone');
@@ -41,16 +38,14 @@ viewBtn.addEventListener('click', () => {
     //     })
 })
 
-reserveBtn.addEventListener('click', () => {
-    // remove console log once click is confirmed
-    console.log('click')
-})
 
 homeBtn.addEventListener('click', () => {
     // remove console log once click is confirmed
     console.log('click')
 })
 
+// Listener for submit button
+// CONTAINS PLACEHOLDER CONTENT
 submitBtn.addEventListener('click', (event) => {
     // Button is part of a form so we prevent default?
     event.preventDefault();
