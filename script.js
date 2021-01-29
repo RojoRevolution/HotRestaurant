@@ -9,8 +9,15 @@ const reserveName = document.getElementById('reserve-name');
 const reservePhone = document.getElementById('reserve-phone');
 const reserveEmail = document.getElementById('reserve-email');
 const reserveId = document.getElementById('reserve-unique-id');
-const submitBtn = document.getElementById('#');
+const submitBtn = document.getElementById('search');
 
+// Variable that creates new reservation object
+let newReservation = {
+    name: reserveName,
+    phone: reserveEmail,
+    email: reserveEmail,
+    id: reserveId,
+};
 
 
 // ===========================
