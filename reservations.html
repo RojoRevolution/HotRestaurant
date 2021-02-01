@@ -13,17 +13,20 @@
 
     <!-- Custom CSS -->
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="resStyle.css">
 
     <title>Hot Restaurant</title>
   </head>
   <body class="bg-dark text-white">
         <div class="container">
             <div class="jumbotron">
-                <h1 class="text-center">Hot Restaurant<i class="fas fa-fire"></i></h1>
+                <header>
+                    <h1 class="text-center">Hot Restaurant<i class="fas fa-fire"></i></h1>
+                </header>
             </div>
-            <hr>
-            <h2 class="text-center">Make a Reservation</h2>
-            <br>
+                <hr>
+                <h2 class="text-center">Make a Reservation</h2>
+                <br>
             <div class="text-center">
                 <a href="">
                     <button id="tableBtn"><i class="fa fa-list"></i> View Tables</i></button>
@@ -35,7 +38,7 @@
         </div>
         <!-- Form -->
         <div class="container-sm">    
-            <div id="res-form"class="card-body">
+            <div id="res-form" class="card-body d-flex">
                 <form>
                     <div class="form-group">
                         <label for="name">Name</label>
@@ -58,9 +61,10 @@
                      </div>
                     <br>
                     <button type="submit" class="btn btn-primary">Submit</button>
+                    <br>
+                    <br>
+                    <a href="#" class="text-center">API Table Link</a> | <a href="#" class="text-center">API Wait List</a>
                 </form>
-                <br>
-                <a href="#" class="text-center">API Table Link</a> | <a href="#" class="text-center">API Wait List</a>
             </div>
         </div>
 

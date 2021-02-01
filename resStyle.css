@@ -16,7 +16,18 @@ header .fa-fire {
 }
 
 /* Make Reservation page */
+#tableBtn, #homeBtn {
+  margin: 5px;
+  padding: 5px;
+}
+
 #res-form {
-    box-sizing: border-box;
-    width: fit-content;
+  justify-content: center;
+}
+
+form {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  width: 75%;
 }
