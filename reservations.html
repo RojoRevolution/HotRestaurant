@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+
+    <title>Hot Restaurant</title>
+  </head>
+  <body class="bg-dark text-white">
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="text-center">Hot Restaurant<i class="fas fa-fire"></i></h1>
+            </div>
+            <hr>
+            <h2 class="text-center">Make a Reservation</h2>
+            <br>
+            <div class="text-center">
+                <a href="">
+                    <button id="tableBtn"><i class="fa fa-list"></i> View Tables</i></button>
+                </a>
+                <a href="">
+                    <button id="homeBtn">Home <i class="fa fa-home"></i></button>
+                </a>
+            </div>
+        </div>
+        <!-- Form -->
+        <div class="container-sm">    
+            <div id="res-form"class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="res-phone">Phone Number</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="res-email">Email</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="res-id">Unique ID</label>
+                        <input type="text" class="form-control">
+                     </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                <br>
+                <a href="#" class="text-center">API Table Link</a> | <a href="#" class="text-center">API Wait List</a>
+            </div>
+        </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  </body>
+</html>
