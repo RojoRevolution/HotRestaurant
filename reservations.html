@@ -1,75 +1,78 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- FontAwesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- FontAwesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="resStyle.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <title>Hot Restaurant</title>
-  </head>
-  <body class="bg-dark text-white">
-        <div class="container">
-            <div class="jumbotron">
-                <header>
-                    <h1 class="text-center">Hot Restaurant<i class="fas fa-fire"></i></h1>
-                </header>
-            </div>
-                <hr>
-                <h2 class="text-center">Make a Reservation</h2>
-                <br>
-            <div class="text-center">
-                <a href="">
-                    <button id="tableBtn"><i class="fa fa-list"></i> View Tables</i></button>
-                </a>
-                <a href="">
-                    <button id="homeBtn">Home <i class="fa fa-home"></i></button>
-                </a>
-            </div>
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet">
+
+  <title>Hot Restaurant</title>
+</head>
+
+<body class="bg-dark text-white">
+  <header>
+    <div class="container-md d-flex justify-content-between">
+      <div>Hot Restaurant <i class="fas fa-fire"></i></div>
+      <div><a href="view.html"><i class="fas fa-home"></i></a></div>
+    </div>
+  </header>
+  <div class="container-md mt-3">
+    <h2 class="text-center">Make a Reservation</h2>
+    <div class="text-center">
+      <a href="">
+        <button id="tableBtn"><i class="fa fa-list"></i> View Tables</i></button>
+      </a>
+      <a href="">
+        <button id="homeBtn">Home <i class="fa fa-home"></i></button>
+      </a>
+    </div>
+  </div>
+  <!-- Form -->
+  <div class="container">
+    <div id="res-form" class="d-flex">
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control">
         </div>
-        <!-- Form -->
-        <div class="container-sm">    
-            <div id="res-form" class="card-body d-flex">
-                <form>
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control">
-                    </div>
-                    <br>
-                    <div class="form-group">
-                        <label for="res-phone">Phone Number</label>
-                        <input type="text" class="form-control">
-                    </div>
-                    <br>
-                    <div class="form-group">
-                        <label for="res-email">Email</label>
-                        <input type="text" class="form-control">
-                    </div>
-                    <br>
-                    <div class="form-group">
-                        <label for="res-id">Unique ID</label>
-                        <input type="text" class="form-control">
-                     </div>
-                    <br>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <br>
-                    <br>
-                    <a href="#" class="text-center">API Table Link</a> | <a href="#" class="text-center">API Wait List</a>
-                </form>
-            </div>
+        <br>
+        <div class="form-group">
+          <label for="res-phone">Phone Number</label>
+          <input type="text" class="form-control">
         </div>
+        <br>
+        <div class="form-group">
+          <label for="res-email">Email</label>
+          <input type="text" class="form-control">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="res-id">Unique ID</label>
+          <input type="text" class="form-control">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <br>
+        <br>
+        <a href="#" class="text-center">API Table Link</a> | <a href="#" class="text-center">API Wait List</a>
+      </form>
+    </div>
+  </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
 
-  </body>
+</body>
+
 </html>
