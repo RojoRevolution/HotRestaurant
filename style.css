@@ -60,3 +60,14 @@ header .fa-home {
 .list-group .col-md {
   font-weight: 300;
 }
+
+#res-form {
+  justify-content: center;
+}
+
+form {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  width: 75%;
+}
