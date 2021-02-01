@@ -15,6 +15,20 @@ header .fa-fire {
   color: red;
 }
 
+header a {
+  color: white;
+}
+
+header a:hover {
+  color: white;
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+header .fa-home {
+  font-size: 2rem;
+}
+
 .card-link {
   opacity: 0.5;
 }
