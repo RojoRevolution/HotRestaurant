@@ -61,12 +61,6 @@ header .fa-home {
   font-weight: 300;
 }
 
-/* Make Reservation page */
-#tableBtn, #homeBtn {
-  margin: 5px;
-  padding: 5px;
-}
-
 #res-form {
   justify-content: center;
 }
